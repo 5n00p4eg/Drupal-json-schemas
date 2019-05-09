@@ -1,0 +1,52 @@
+{
+  "title": "Drupal info file",
+  "$schema": "http://json-schema.org/schema#",
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "core": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "package": { "type": "string" },
+    "screenshot": { "type": "string" },
+    "engine": { "type": "string" },
+    "base theme": { "type": "string" },
+    "regions": { "type": "string" },
+    "features": { "type": "string" },
+    "stylesheets": { "type": "string" },
+    "scripts": { "type": "string" },
+    "dependencies": { "type": "array",
+      "items": {
+        "$ref": "#/definitions/dependency"
+      }
+    },
+    "test_dependencies": { "type": "array",
+      "items": {
+        "$ref": "#/definitions/dependency"
+      }
+    },
+    "version": { "type": "string" },
+    "project": { "type": "string" },
+    "hidden": { "type": "string" },
+    "php": { "type": "string" },
+    "configure": { "type": "string" }
+  },
+  "definitions": {
+    "dependency": {
+      "type": "object",
+      "properties": {
+        "project": { "type": "string" },
+        "module": { "type": "string" }
+      },
+      "required": ["module"]
+    }
+  },
+  "required": ["type", "core", "name"]
+}
