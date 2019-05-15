@@ -21,3 +21,6 @@ This schemas can be used to validate Drupal 8 yaml files.
    * *Drupal layouts*   
    url: `https://5n00p4eg.github.io/Drupal-json-schemas/layouts.json`   
    pattern: `*.layouts.yml`
+   * *Drupal libraries*   
+   url: `https://5n00p4eg.github.io/Drupal-json-schemas/libraries.json`   
+   pattern: `*.libraries.yml`
