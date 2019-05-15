@@ -23,7 +23,8 @@
           "additionalProperties": { "$ref": "#/definitions/layout_region"}
         },
         "default_region": { "type": "string" },
-        "additional": { "type": "array" }
+        "additional": { "type": "array" },
+        "class": { "type": "string" }
       },
       "additionalProperties": false
     },
