@@ -6,6 +6,7 @@ This schemas can be used to validate Drupal 8 yaml files.
 * *.libraries.yml (wip) 
 * *.breakpoints.yml (not completed)
 * *.layouts.yml (wip)
+* *.schema.yml (not-supported)
 
 ## TODO:
 1. Add this schemas to schemastore.org
