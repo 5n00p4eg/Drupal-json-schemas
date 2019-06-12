@@ -22,13 +22,8 @@
             "js": {
                 "type": "object",
                 "additionalProperties": {
-                    "type": "object",
+                    "$ref": "#/definitions/file",
                     "properties": {
-                        "minified": {"type": "boolean"},
-                        "external": {"type": "boolean"},
-                        "type": {"type": "string"},
-                        "preprocess": {"type": "boolean"},
-                        "weight": {"type": "integer"},
                         "attributes": {"type": "object"},
                         "cache": {"type": "boolean"},
                         "browsers": {"type": "object"}
@@ -57,16 +52,21 @@
         }
     },
     "definitions": {
+        "file": {
+            "type": "object",
+            "properties": {
+                "minified": {"type": "boolean"},
+                "external": {"type": "boolean"},
+                "type": {"type": "string"},
+                "preprocess": {"type": "boolean"},
+                "weight": {"type": "integer"}
+            }
+        },
         "cssFiles": {
             "type": "object",
             "additionalProperties": {
-                "type": "object",
+                "$ref": "#/definitions/file",
                 "properties": {
-                    "minified": {"type": "boolean"},
-                    "external": {"type": "boolean"},
-                    "type": {"type": "string"},
-                    "preprocess": {"type": "boolean"},
-                    "weight": {"type": "integer"},
                     "group": {"type": "integer"},
                     "media": {
                         "type": "string",
@@ -75,7 +75,7 @@
                 },
                 "additionalProperties": false
             }
-        },
+        }
 
     }
 }
