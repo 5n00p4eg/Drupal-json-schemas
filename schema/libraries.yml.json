@@ -4,10 +4,9 @@
     "type": "object",
     "additionalProperties": {
         "type": "object",
-        "required": ["version"],
         "additionalProperties": false,
         "properties": {
-            "version": {"type": "string"},
+            "version": {"type": ["string", "number"]},
             "remote": {"type": "string"},
             "license": {
                 "type": "object",
@@ -18,15 +17,33 @@
                     "gpl-compatible": {"type": "boolean"}
                 }
             },
-            "js": {"$ref": "#/definitions/files"},
+            "header": {"type": "boolean"},
+            "drupalSettings": {"type": "object"},
+            "js": {
+                "type": "object",
+                "additionalProperties": {
+                    "type": "object",
+                    "properties": {
+                        "minified": {"type": "boolean"},
+                        "external": {"type": "boolean"},
+                        "type": {"type": "string"},
+                        "preprocess": {"type": "boolean"},
+                        "weight": {"type": "integer"},
+                        "attributes": {"type": "object"},
+                        "cache": {"type": "boolean"},
+                        "browsers": {"type": "object"}
+                    },
+                    "additionalProperties": false
+                }
+            },
             "css": {
                 "type": "object",
                 "properties": {
-                    "base": {"$ref": "#/definitions/files"},
-                    "layout": {"$ref": "#/definitions/files"},
-                    "component": {"$ref": "#/definitions/files"},
-                    "theme": {"$ref": "#/definitions/files"},
-                    "state": {"$ref": "#/definitions/files"}
+                    "base": {"$ref": "#/definitions/cssFiles"},
+                    "layout": {"$ref": "#/definitions/cssFiles"},
+                    "component": {"$ref": "#/definitions/cssFiles"},
+                    "theme": {"$ref": "#/definitions/cssFiles"},
+                    "state": {"$ref": "#/definitions/cssFiles"}
                 }
             },
             "dependencies": {
@@ -40,18 +57,25 @@
         }
     },
     "definitions": {
-        "files": {
+        "cssFiles": {
             "type": "object",
             "additionalProperties": {
                 "type": "object",
                 "properties": {
                     "minified": {"type": "boolean"},
                     "external": {"type": "boolean"},
+                    "type": {"type": "string"},
                     "preprocess": {"type": "boolean"},
-                    "weight": {"type": "integer"}
+                    "weight": {"type": "integer"},
+                    "group": {"type": "integer"},
+                    "media": {
+                        "type": "string",
+                        "enum": ["all", "screen", "print", "speech"]
+                    }
                 },
                 "additionalProperties": false
             }
-        }
+        },
+
     }
 }
