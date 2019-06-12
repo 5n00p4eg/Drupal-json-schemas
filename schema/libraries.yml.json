@@ -1,0 +1,57 @@
+{
+    "title": "Drupal permissions file",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "additionalProperties": {
+        "type": "object",
+        "required": ["version"],
+        "additionalProperties": false,
+        "properties": {
+            "version": {"type": "string"},
+            "remote": {"type": "string"},
+            "license": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "name": {"type": "string"},
+                    "url": {"type": "string"},
+                    "gpl-compatible": {"type": "boolean"}
+                }
+            },
+            "js": {"$ref": "#/definitions/files"},
+            "css": {
+                "type": "object",
+                "properties": {
+                    "base": {"$ref": "#/definitions/files"},
+                    "layout": {"$ref": "#/definitions/files"},
+                    "component": {"$ref": "#/definitions/files"},
+                    "theme": {"$ref": "#/definitions/files"},
+                    "state": {"$ref": "#/definitions/files"}
+                }
+            },
+            "dependencies": {
+                "type": "array",
+                "items": {
+                    "type": "string",
+                    "pattern": "^.+/.+$"
+                }
+            }
+
+        }
+    },
+    "definitions": {
+        "files": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "minified": {"type": "boolean"},
+                    "external": {"type": "boolean"},
+                    "preprocess": {"type": "boolean"},
+                    "weight": {"type": "integer"}
+                },
+                "additionalProperties": false
+            }
+        }
+    }
+}
