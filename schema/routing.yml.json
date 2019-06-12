@@ -34,11 +34,11 @@
                     "_entity_access": {"type": "string"},
                     "_entity_create_access": {"type": "string"},
                     "_entity_delete_multiple_access": {"type": "string"},
-                    "_permission": {"type": "string"},
                     "_module_dependencies": {"type": "string"},
                     "_csrf_token": {"type": "string"},
                     "_user_is_logged_in": {"type": "string"},
-                    "_access_theme": {"type": "string"}
+                    "_access_theme": {"type": "string"},
+                    "_permission_": {"type": "string"}
                 }
             },
             "methods": {

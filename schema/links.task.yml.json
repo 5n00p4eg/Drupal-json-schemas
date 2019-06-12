@@ -1,0 +1,25 @@
+{
+    "title": "Drupal links.tasks file",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "additionalProperties": {
+        "type": "object",
+        "properties": {
+            "title": {"type": "string"},
+            "route_name": {"type": "string"},
+            "base_route": {"type": "string"},
+            "parent_id": {"type": "string"},
+            "deriver": {"type": "string"},
+            "weight": {"type": "integer"},
+            "class": {"type": "string"},
+            "cache_tags": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            }
+        },
+        "additionalProperties": false
+    }
+
+}
