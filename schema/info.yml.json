@@ -1,0 +1,150 @@
+{
+    "title": "Drupal extension info file",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "required": ["type", "core", "name"],
+    "properties": {
+        "name": {"type": "string"},
+        "type": {
+            "type": "string",
+            "enum": ["module", "theme", "profile"]
+        },
+        "core": {
+            "type": "string",
+            "pattern": "^\\d\\.x$"
+        },
+        "description": {"type": "string"},
+        "package": {"type": "string"},
+        "version": {"type": "string"},
+        "project": {"type": "string"},
+        "datestamp": {"type": "integer"},
+        "hidden": {"type": "boolean"},
+        "php": {
+            "anyOf": [
+                {"type": "string"},
+                {"type": "number"}
+            ],
+            "pattern": "^\\d+\\.\\d+(\\.\\d+)$"
+        }
+
+    },
+    "allOf": [
+        {
+            "if": {
+                "properties": {
+                    "type": {"const": "module"}
+                }
+            },
+            "then": {
+                "properties": {
+                    "configure": {"type": "string"},
+                    "dependencies": {
+                        "type": "array",
+                        "items": {"$ref": "#/definitions/dependency"}
+                    },
+                    "test_dependencies": {
+                        "type": "array",
+                        "items": {"$ref": "#/definitions/dependency"}
+                    }
+                }
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "type": {"const": "theme"}
+                }
+            },
+            "then": {
+                "properties": {
+                    "base theme": {
+                        "anyOf": [
+                            {"type": "string"},
+                            {"type": "boolean"}
+                        ]
+                    },
+                    "libraries": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "pattern": "^[a-z0-9]+/[a-z0-9- ]+"
+                        }
+                    },
+                    "libraries-override": {
+                        "type": "object",
+                        "additionalProperties": {"type": "object"}
+                    },
+                    "libraries-extend": {
+                        "type": "object",
+                        "additionalProperties": {"type": "array"}
+                    },
+                    "engine": {"type": "string"},
+                    "logo": {"type": "string"},
+                    "screenshot": {"type": "string"},
+                    "regions": {
+                        "type": "object",
+                        "additionalProperties": {"type": "string"}
+                    },
+                    "features": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    "ckeditor_stylesheets": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "pattern": "^css/.+\\.css$"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "type": {"const": "profile"}
+                }
+            },
+            "then": {
+                "properties": {
+                    "distribution": {
+                        "type": "object",
+                        "properties": {
+                            "name": {"type": "string"},
+                            "install": {
+                                "type": "object",
+                                "properties": {
+                                    "theme": {"$ref": "#/definitions/machine_name"}
+                                }
+                            },
+                            "langcode": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "dependencies": {
+                        "type": "array",
+                        "items": {"$ref": "#/definitions/machine_name"}
+                    },
+                    "install": {
+                        "type": "array",
+                        "items": {"$ref": "#/definitions/machine_name"}
+                    },
+                    "theme": {
+                        "type": "array",
+                        "items": {"$ref": "#/definitions/machine_name"}
+                    }
+                }
+            }
+        }
+    ],
+    "definitions": {
+        "dependency": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+:[a-z0-9]+"
+        },
+        "machine_name": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+        }
+    }
+}
