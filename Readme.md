@@ -2,11 +2,21 @@
 This schemas can be used to validate Drupal 8 yaml files.
 
 ## Supported yamls:
+### Core
 * *.info.yml (not completed)
 * *.libraries.yml (wip) 
 * *.breakpoints.yml (not completed)
 * *.layouts.yml (wip)
-* *.schema.yml (not-supported)
+* *.schema.yml (To-do)
+* *.routing.yml (To-do)
+* *.services.yml (To-do)
+* *.links.(action|menu|task|contextual).yml (To-do)
+* *.permissions.yml (to-do)
+* */migrations/*.yml (to-do)
+
+### Contrib
+* Drush ymls files (To-do)
+* migrate_lus (To-do)
 
 ## TODO:
 1. Add this schemas to schemastore.org
