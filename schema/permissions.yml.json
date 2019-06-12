@@ -19,7 +19,7 @@
         "properties": {
             "title": {"type": "string"},
             "description": {"type": "string"},
-            "restrict access": {"type": "boolean"},
+            "restrict access": {"type": "boolean"}
         }
     }
 }
