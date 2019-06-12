@@ -6,7 +6,7 @@
         "name": {"type": "string"},
         "type": {
             "type": "string",
-            "enum": ["module", "theme", "profile"]
+            "enum": ["module", "theme", "profile", "theme_engine"]
         },
         "core": {
             "type": "string",
@@ -66,12 +66,18 @@
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "pattern": "^[a-z0-9]+/[a-z0-9- ]+"
+                            "pattern": "^[a-z0-9_]+/[a-z0-9_-]+"
                         }
                     },
                     "libraries-override": {
                         "type": "object",
-                        "additionalProperties": {"type": "object"}
+                        "additionalProperties": {
+                            "anyOf": [
+                                {"type": "object"},
+                                {"type": "string"},
+                                {"type": "boolean"}
+                            ]
+                        }
                     },
                     "libraries-extend": {
                         "type": "object",
@@ -91,8 +97,7 @@
                     "ckeditor_stylesheets": {
                         "type": "array",
                         "items": {
-                            "type": "string",
-                            "pattern": "^css/.+\\.css$"
+                            "type": "string"
                         }
                     }
                 }
@@ -127,7 +132,7 @@
                     },
                     "install": {
                         "type": "array",
-                        "items": {"$ref": "#/definitions/machine_name"}
+                        "items": {"$ref": "#/definitions/dependency"}
                     },
                     "theme": {
                         "type": "array",
@@ -140,7 +145,7 @@
     "definitions": {
         "dependency": {
             "type": "string",
-            "pattern": "^[a-z0-9]+:[a-z0-9]+"
+            "pattern": "^[a-z0-9_]+:[a-z0-9_]+( \\(.+\\))?$"
         },
         "machine_name": {
             "type": "string",
