@@ -1,4 +1,4 @@
-#Drupal json schemas
+# Drupal json schemas
 This schemas can be used to validate Drupal 8 yaml files.
 
 ## Supported yamls:
