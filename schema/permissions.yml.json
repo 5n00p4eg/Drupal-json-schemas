@@ -1,9 +1,25 @@
 {
-    "title": "Drupal extension info file",
+    "title": "Drupal permissions file",
     "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
     "properties": {
-        "additionalProperties": {
-            "type": "object",
+        "permission_callbacks": {
+            "type": "array",
+            "items": {"type": "string"}
+        }
+    },
+    "additionalProperties": {
+        "type": "object",
+        "required": ["title"],
+        "additionalProperties": false,
+        "propertyNames": {
+            "type": "string",
+            "pattern": "^[^A-Z]+$"
+        },
+        "properties": {
+            "title": {"type": "string"},
+            "description": {"type": "string"},
+            "restrict access": {"type": "boolean"},
         }
     }
 }
