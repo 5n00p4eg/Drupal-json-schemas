@@ -1,0 +1,9 @@
+{
+    "title": "Drupal extension info file",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "properties": {
+        "additionalProperties": {
+            "type": "object",
+        }
+    }
+}

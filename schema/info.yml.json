@@ -19,13 +19,9 @@
         "datestamp": {"type": "integer"},
         "hidden": {"type": "boolean"},
         "php": {
-            "anyOf": [
-                {"type": "string"},
-                {"type": "number"}
-            ],
+            "type": ["string", "number"],
             "pattern": "^\\d+\\.\\d+(\\.\\d+)$"
         }
-
     },
     "allOf": [
         {
@@ -57,10 +53,7 @@
             "then": {
                 "properties": {
                     "base theme": {
-                        "anyOf": [
-                            {"type": "string"},
-                            {"type": "boolean"}
-                        ]
+                        "type": ["string", "boolean"]
                     },
                     "libraries": {
                         "type": "array",
@@ -72,11 +65,7 @@
                     "libraries-override": {
                         "type": "object",
                         "additionalProperties": {
-                            "anyOf": [
-                                {"type": "object"},
-                                {"type": "string"},
-                                {"type": "boolean"}
-                            ]
+                            "type": ["object", "string", "boolean"]
                         }
                     },
                     "libraries-extend": {
