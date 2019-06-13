@@ -30,7 +30,11 @@ This schemas can be used to validate Drupal 8 yaml files.
 1. Add schema mappings to PhpStorm via bundled Drupal support or other custom plugin.  
 
 ## Usage
-### PhpStorm
+### PhpStorm (config file)
+*Note:* this may override your existing JSON Schema Mappings.   
+
+Put file [jsonSchemas.xml](https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/configs/jsonSchemas.xml) inside of .idea dir in your PhpStorm project dir.
+### PhpStorm (manual)
 1. Open `File | Settings | Languages & Frameworks | Schemas and DTDs | JSON Schema Mappings`
 1. Add needed:
    * *Drupal info*   
@@ -42,15 +46,15 @@ This schemas can be used to validate Drupal 8 yaml files.
    * *Drupal libraries*   
    url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/schema/libraries.yml.json`   
    pattern: `*.libraries.yml`
-   * *Drupal links (task)*
+   * *Drupal links (task)*   
    url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.task.yml.json`   
    pattern: `*.links.task.yml`
-   * *Drupal permissions*
+   * *Drupal permissions*   
    url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/permissions.yml.json`   
    pattern: `*.permissions.yml`
-   * *Drupal routing*
+   * *Drupal routing*   
    url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/routing.yml.json`   
    pattern: `*.routing.yml`
-   * *Drupal services*
+   * *Drupal services*   
    url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/services.yml.json`   
    pattern: `*.services.yml`

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="Drupal info">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Drupal info" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schemas/info.yml.json" />
+              <option name="schemaVersion" value="JSON schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="pattern" value="true" />
+                    <option name="path" value="*.info.yml" />
+                    <option name="mappingKind" value="Pattern" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="Drupal layouts">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Drupal layouts" />
+              <option name="relativePathToSchema" value="../drupal-json-schemas/schema/layouts.yml.json" />
+              <option name="schemaVersion" value="JSON schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="pattern" value="true" />
+                    <option name="path" value="*.layouts.yml" />
+                    <option name="mappingKind" value="Pattern" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="Drupal libraries">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Drupal libraries" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/libraries.yml.json" />
+              <option name="schemaVersion" value="JSON schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="pattern" value="true" />
+                    <option name="path" value="*.libraries.yml" />
+                    <option name="mappingKind" value="Pattern" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="Drupal links (task)">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Drupal links (task)" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.task.yml.json" />
+              <option name="schemaVersion" value="JSON schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="pattern" value="true" />
+                    <option name="path" value="*.links.task.yml" />
+                    <option name="mappingKind" value="Pattern" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="Drupal permissions">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Drupal permissions" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/permissions.yml.json" />
+              <option name="schemaVersion" value="JSON schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="pattern" value="true" />
+                    <option name="path" value="*.permissions.yml" />
+                    <option name="mappingKind" value="Pattern" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="Drupal routing">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Drupal routing" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/routing.yml.json" />
+              <option name="schemaVersion" value="JSON schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="pattern" value="true" />
+                    <option name="path" value="*.routing.yml" />
+                    <option name="mappingKind" value="Pattern" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="Drupal services">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Drupal services" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/services.yml.json" />
+              <option name="schemaVersion" value="JSON schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="pattern" value="true" />
+                    <option name="path" value="*.services.yml" />
+                    <option name="mappingKind" value="Pattern" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>
