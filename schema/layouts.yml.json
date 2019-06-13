@@ -23,7 +23,7 @@
             },
             "templatePath": {"type": "string"},
             "theme": {"type": "string"},
-            "regions" : {
+            "regions": {
                 "type": "object",
                 "additionalProperties": {
                     "type": "object",
@@ -35,7 +35,7 @@
             },
             "default_region": {"type": "string"},
             "additional": {"type": "array"},
-            "class": {"type": "string" }
+            "class": {"type": "string"}
         },
         "additionalProperties": false
     }
