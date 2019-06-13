@@ -14,9 +14,7 @@
             "class": {"type": "string"},
             "cache_tags": {
                 "type": "array",
-                "items": {
-                    "type": "string"
-                }
+                "items": {"type": "string"}
             }
         },
         "additionalProperties": false
