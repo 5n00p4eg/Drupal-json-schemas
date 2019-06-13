@@ -1,0 +1,42 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Drupal layouts file",
+    "description": "Drupal plugin definition: core/lib/Drupal/Core/Layout/LayoutDefinition.php",
+    "type": "object",
+    "additionalProperties": {
+        "type": "object",
+        "properties": {
+            "label": {"type": "string"},
+            "description": {"type": "string"},
+            "category": {"type": "string"},
+            "template": {"type": "string"},
+            "theme_hook": {"type": "string"},
+            "path": {"type": "string"},
+            "library": {"type": "string"},
+            "icon": {"type": "string"},
+            "icon_map": {
+                "type": "array",
+                "items": {
+                    "type": "array",
+                    "items": {"type": "string"}
+                }
+            },
+            "templatePath": {"type": "string"},
+            "theme": {"type": "string"},
+            "regions" : {
+                "type": "object",
+                "additionalProperties": {
+                    "type": "object",
+                    "properties": {
+                        "label": {"type": "string"}
+                    },
+                    "additionalProperties": true
+                }
+            },
+            "default_region": {"type": "string"},
+            "additional": {"type": "array"},
+            "class": {"type": "string" }
+        },
+        "additionalProperties": false
+    }
+}
