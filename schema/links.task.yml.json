@@ -1,6 +1,6 @@
 {
-    "title": "Drupal links.tasks file",
     "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Drupal links.tasks file",
     "type": "object",
     "additionalProperties": {
         "type": "object",

@@ -1,6 +1,6 @@
 {
-    "title": "Drupal routing file",
     "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Drupal routing file",
     "type": "object",
     "properties": {
         "route_callbacks": {

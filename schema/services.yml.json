@@ -1,6 +1,6 @@
 {
-    "title": "Drupal services file",
     "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Drupal services file",
     "type": "object",
     "properties": {
         "parameters": {
@@ -12,7 +12,7 @@
                 "properties": {
                     "class": {"type": "string"},
                     "parent": {"type": "string"},
-                    "factory": {"type": "string"},
+                    "factory": {"type": ["string", "array"]},
                     "decorates": {"type": "string"},
                     "deprecated": {"type": "string"},
                     "lazy": {"type": "boolean"},
@@ -28,46 +28,49 @@
                             "type": "object",
                             "properties": {
                                 "name": {
-                                    "type": "string",
-                                    "enum": [
-                                        "access_check",
-                                        "authentication_provider",
-                                        "backend_overridable",
-                                        "cache.bin",
-                                        "cache.context",
-                                        "cache_tags_invalidator",
-                                        "context_provider",
-                                        "dynamic_page_cache_response_policy",
-                                        "event_subscriber",
-                                        "http_middleware",
-                                        "mime_type_guesser",
-                                        "needs_destruction",
-                                        "page_cache_request_policy",
-                                        "page_cache_response_policy",
-                                        "paramconverter",
-                                        "parameter_service",
-                                        "path_processor_inbound",
-                                        "path_processor_outbound",
-                                        "persist",
-                                        "placeholder_strategy",
-                                        "plugin_manager_cache_clear",
-                                        "render.main_content_renderer",
-                                        "route_enhancer",
-                                        "route_filter",
-                                        "route_processor_outbound",
-                                        "service_collector",
-                                        "session_handler_proxy",
-                                        "stream_wrapper",
-                                        "string_translator",
-                                        "twig.extension",
-                                        "twig.loader",
-                                        "theme_negotiator",
-                                        "breadcrumb_builder",
-                                        "module_install.uninstall_validator",
-                                        "config.factory.override",
-                                        "drush.command",
-                                        "drupal.command",
-                                        "logger",
+                                    "anyOf": [
+                                        {
+                                            "enum": [
+                                                "access_check",
+                                                "authentication_provider",
+                                                "backend_overridable",
+                                                "cache.bin",
+                                                "cache.context",
+                                                "cache_tags_invalidator",
+                                                "context_provider",
+                                                "dynamic_page_cache_response_policy",
+                                                "event_subscriber",
+                                                "http_middleware",
+                                                "mime_type_guesser",
+                                                "needs_destruction",
+                                                "page_cache_request_policy",
+                                                "page_cache_response_policy",
+                                                "paramconverter",
+                                                "parameter_service",
+                                                "path_processor_inbound",
+                                                "path_processor_outbound",
+                                                "persist",
+                                                "placeholder_strategy",
+                                                "plugin_manager_cache_clear",
+                                                "render.main_content_renderer",
+                                                "route_enhancer",
+                                                "route_filter",
+                                                "route_processor_outbound",
+                                                "service_collector",
+                                                "session_handler_proxy",
+                                                "stream_wrapper",
+                                                "string_translator",
+                                                "twig.extension",
+                                                "twig.loader",
+                                                "theme_negotiator",
+                                                "breadcrumb_builder",
+                                                "module_install.uninstall_validator",
+                                                "config.factory.override",
+                                                "drush.command",
+                                                "drupal.command",
+                                                "logger"
+                                            ]
+                                        },
                                         {"type": "string"}
                                     ]
                                 },
@@ -76,16 +79,20 @@
                                 "tag": {"type": "string"},
                                 "priority": {"type": "integer"},
                                 "default_backend": {"type": "string"},
+                                "responder": {"type": "boolean"},
                                 "format": {
-                                    "type": "string",
-                                    "enum": [
-                                        "html",
-                                        "drupal_ajax",
-                                        "iframeupload",
-                                        "drupal_dialog",
-                                        "drupal_dialog.off_canvas",
-                                        "drupal_dialog.off_canvas_top",
-                                        "drupal_modal",
+                                    "anyOf": [
+                                        {
+                                            "enum": [
+                                                "html",
+                                                "drupal_ajax",
+                                                "iframeupload",
+                                                "drupal_dialog",
+                                                "drupal_dialog.off_canvas",
+                                                "drupal_dialog.off_canvas_top",
+                                                "drupal_modal"
+                                            ]
+                                        },
                                         {"type": "string"}
                                     ]
                                 },
@@ -93,17 +100,20 @@
                                 "provider_id": {"type": "string"},
                                 "needs_incoming_request": {"type": "boolean"},
                                 "scheme": {
-                                    "type": "string",
-                                    "enum": [
-                                        "public",
-                                        "private",
-                                        "temporary",
+                                    "anyOf": [
+                                        {
+                                            "enum": [
+                                                "public",
+                                                "private",
+                                                "temporary"
+
+                                            ]
+                                        },
                                         {"type": "string"}
                                     ]
                                 }
 
                             },
-                            "additionalProperties": false
                         }
                     },
                     "calls": {
