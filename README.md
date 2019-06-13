@@ -1,5 +1,5 @@
 # Drupal json schemas
-This schemas can be used to validate Drupal 8 yaml files.
+This schemas can be used to validate Drupal 8+ yaml files.
 
 ## Supported yamls:
 ### Core
@@ -26,7 +26,8 @@ This schemas can be used to validate Drupal 8 yaml files.
 |migrate_plus           |To-do |
 
 ## TODO:
-1. Add this schemas to schemastore.org
+1. Add this schemas to schemastore.org [issue](https://github.com/SchemaStore/schemastore/issues/710)
+1. Add schemas to Drupal core [issue](https://www.drupal.org/project/drupal/issues/3061454)
 1. Add schema mappings to PhpStorm via bundled Drupal support or other custom plugin.  
 
 ## Usage
