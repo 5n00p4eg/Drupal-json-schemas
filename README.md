@@ -1,11 +1,29 @@
-#Drupal json schemas
+# Drupal json schemas
 This schemas can be used to validate Drupal 8 yaml files.
 
 ## Supported yamls:
-* *.info.yml (not completed)
-* *.libraries.yml (wip) 
-* *.breakpoints.yml (not completed)
-* *.layouts.yml (wip)
+### Core
+|File                   |Status|
+|-----------------------|------|
+|*.info.yml             |yes   |
+|*.layouts.yml          |yes   |
+|*.libraries.yml        |yes   | 
+|*.breakpoints.yml      |To-do |
+|*.schema.yml           |To-do |
+|*.routing.yml          |To-do |
+|*.services.yml         |To-do |
+|*.links.action.yml     |To-do |
+|*.links.contextual.yml |To-do |
+|*.links.menu.yml       |To-do |
+|*.links.task.yml       |yes   |
+|*.permissions.yml      |yes   |
+|\*/migrations/\*.yml   |To-do |
+
+### Contrib
+|Project/File           |Status|
+|-----------------------|------|
+|Drush (9.x+) yml files |To-do |
+|migrate_plus           |To-do |
 
 ## TODO:
 1. Add this schemas to schemastore.org
@@ -16,11 +34,23 @@ This schemas can be used to validate Drupal 8 yaml files.
 1. Open `File | Settings | Languages & Frameworks | Schemas and DTDs | JSON Schema Mappings`
 1. Add needed:
    * *Drupal info*   
-   url: `https://5n00p4eg.github.io/Drupal-json-schemas/info.json`   
+   url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/info.yml.json`   
    pattern: `*.info.yml`
    * *Drupal layouts*   
-   url: `https://5n00p4eg.github.io/Drupal-json-schemas/layouts.json`   
+   url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/layouts.yml.json`   
    pattern: `*.layouts.yml`
    * *Drupal libraries*   
-   url: `https://5n00p4eg.github.io/Drupal-json-schemas/libraries.json`   
+   url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/schema/libraries.yml.json`   
    pattern: `*.libraries.yml`
+   * *Drupal links (task)*
+   url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.task.yml.json`   
+   pattern: `*.links.task.yml`
+   * *Drupal permissions*
+   url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/permissions.yml.json`   
+   pattern: `*.permissions.yml`
+   * *Drupal routing*
+   url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/routing.yml.json`   
+   pattern: `*.routing.yml`
+   * *Drupal services*
+   url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/services.yml.json`   
+   pattern: `*.services.yml`
