@@ -22,7 +22,7 @@
                 "type": "string"
             },
             "parent_id": {
-                "The plugin ID of the parent tab",
+                "title": "The plugin ID of the parent tab",
                 "type": "string"
             },
             "weight": {
