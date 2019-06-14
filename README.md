@@ -38,31 +38,16 @@ Put file [jsonSchemas.xml](https://raw.githubusercontent.com/5n00p4eg/Drupal-jso
 ### PhpStorm (manual)
 1. Open `File | Settings | Languages & Frameworks | Schemas and DTDs | JSON Schema Mappings`
 1. Add needed:
-   * *Drupal info*   
-       url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/info.yml.json`   
-       pattern: `*.info.yml`
-   * *Drupal layouts*   
-       url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/layouts.yml.json`   
-       pattern: `*.layouts.yml`
-   * *Drupal libraries*   
-       url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/schema/libraries.yml.json`   
-       pattern: `*.libraries.yml`
-   * *Drupal links (task)*   
-       url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.task.yml.json`   
-       pattern: `*.links.task.yml`
-   * *Drupal permissions*   
-       url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/permissions.yml.json`   
-       pattern: `*.permissions.yml`
-   * *Drupal routing*   
-       url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/routing.yml.json`   
-       pattern: `*.routing.yml`
-   * *Drupal services*   
-       url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/services.yml.json`   
-       pattern: `*.services.yml`
-   * *Drupal breakpoints*   
-      url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/breakpoints.yml.json`   
-      pattern: `*.breakpoints.yml`
-   * *Drush site aliases*   
-       url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/site.alias.yml.json`   
-       pattern: `*.site.yml`
+
+|Name|Url|Pattern|
+|----|---|-------|
+|Drupal info|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/info.yml.json`|`*.info.yml`|
+|Drupal layouts|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/layouts.yml.json`|`*.layouts.yml`|
+|Drupal libraries|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/schema/libraries.yml.json`|`*.libraries.yml`|
+|Drupal links (task)|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.task.yml.json`|`*.links.task.yml`|
+|Drupal permissions|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/permissions.yml.json`|`*.permissions.yml`|
+|Drupal routing|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/routing.yml.json`|`*.routing.yml`|
+|Drupal services|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/services.yml.json`|`*.services.yml`|
+|Drupal breakpoints|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/breakpoints.yml.json`|`*.breakpoints.yml`|
+|Drush site aliases|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/site.alias.yml.json`|`*.site.yml`|
    
