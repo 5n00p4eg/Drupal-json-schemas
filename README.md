@@ -59,3 +59,7 @@ Put file [jsonSchemas.xml](https://raw.githubusercontent.com/5n00p4eg/Drupal-jso
    * *Drupal services*   
    url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/services.yml.json`   
    pattern: `*.services.yml`
+   * *Drush site aliases*   
+   url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/site.alias.yml.json`   
+   pattern: `*.site.yml`
+   
