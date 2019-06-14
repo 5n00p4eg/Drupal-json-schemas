@@ -8,10 +8,10 @@ This schemas can be used to validate Drupal 8+ yaml files.
 |*.info.yml             |yes   |
 |*.layouts.yml          |yes   |
 |*.libraries.yml        |yes   | 
-|*.breakpoints.yml      |To-do |
+|*.breakpoints.yml      |yes   |
 |*.schema.yml           |To-do |
-|*.routing.yml          |To-do |
-|*.services.yml         |To-do |
+|*.routing.yml          |yes   |
+|*.services.yml         |yes   |
 |*.links.action.yml     |To-do |
 |*.links.contextual.yml |To-do |
 |*.links.menu.yml       |To-do |
