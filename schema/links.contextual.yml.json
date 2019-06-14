@@ -1,32 +1,28 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Drupal task links file",
+    "title": "Drupal contextual links file",
     "type": "object",
     "additionalProperties": {
         "type": "object",
         "properties": {
             "title": {
-                "title": "The static title for the local task",
+                "title": "The static title for the local action",
                 "type": "string"
             },
             "route_name": {
-                "title": "The name of the route this task links to",
+                "title": "The route name used to generate a link",
                 "type": "string"
             },
             "route_parameters": {
-                "title": "Parameters for route variables when generating a link",
+                "title": "Route parameters for generating a link",
                 "type": "object"
             },
-            "base_route": {
-                "title": "The route name where the root tab appears",
-                "type": "string"
-            },
-            "parent_id": {
-                "The plugin ID of the parent tab",
+            "group": {
+                "title": "The contextual links group",
                 "type": "string"
             },
             "weight": {
-                "title": "The weight of the tab",
+                "title": "The weight of the local action",
                 "type": "integer"
             },
             "options": {
@@ -34,7 +30,7 @@
                 "type": "object"
             },
             "class": {
-                "title": "Class for task implementations",
+                "title": "Class for local action implementations",
                 "type": "string"
             },
             "deriver": {
