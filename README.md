@@ -39,27 +39,30 @@ Put file [jsonSchemas.xml](https://raw.githubusercontent.com/5n00p4eg/Drupal-jso
 1. Open `File | Settings | Languages & Frameworks | Schemas and DTDs | JSON Schema Mappings`
 1. Add needed:
    * *Drupal info*   
-   url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/info.yml.json`   
-   pattern: `*.info.yml`
+       url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/info.yml.json`   
+       pattern: `*.info.yml`
    * *Drupal layouts*   
-   url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/layouts.yml.json`   
-   pattern: `*.layouts.yml`
+       url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/layouts.yml.json`   
+       pattern: `*.layouts.yml`
    * *Drupal libraries*   
-   url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/schema/libraries.yml.json`   
-   pattern: `*.libraries.yml`
+       url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/schema/libraries.yml.json`   
+       pattern: `*.libraries.yml`
    * *Drupal links (task)*   
-   url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.task.yml.json`   
-   pattern: `*.links.task.yml`
+       url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.task.yml.json`   
+       pattern: `*.links.task.yml`
    * *Drupal permissions*   
-   url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/permissions.yml.json`   
-   pattern: `*.permissions.yml`
+       url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/permissions.yml.json`   
+       pattern: `*.permissions.yml`
    * *Drupal routing*   
-   url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/routing.yml.json`   
-   pattern: `*.routing.yml`
+       url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/routing.yml.json`   
+       pattern: `*.routing.yml`
    * *Drupal services*   
-   url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/services.yml.json`   
-   pattern: `*.services.yml`
+       url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/services.yml.json`   
+       pattern: `*.services.yml`
+   * *Drupal breakpoints*   
+      url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/breakpoints.yml.json`   
+      pattern: `*.breakpoints.yml`
    * *Drush site aliases*   
-   url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/site.alias.yml.json`   
-   pattern: `*.site.yml`
+       url: `https://5n00p4eg.github.io/Drupal-json-schemas/schema/site.alias.yml.json`   
+       pattern: `*.site.yml`
    
