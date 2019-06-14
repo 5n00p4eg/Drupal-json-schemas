@@ -75,6 +75,60 @@
             </SchemaInfo>
           </value>
         </entry>
+        <entry key="Drupal links (menu)">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Drupal links (menu)" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.menu.yml.json" />
+              <option name="schemaVersion" value="JSON schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="pattern" value="true" />
+                    <option name="path" value="*.links.menu.yml" />
+                    <option name="mappingKind" value="Pattern" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="Drupal links (contextual)">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Drupal links (contextual)" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.contextual.yml.json" />
+              <option name="schemaVersion" value="JSON schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="pattern" value="true" />
+                    <option name="path" value="*.links.contextual.yml" />
+                    <option name="mappingKind" value="Pattern" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="Drupal links (action)">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="Drupal links (action)" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.action.yml.json" />
+              <option name="schemaVersion" value="JSON schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="pattern" value="true" />
+                    <option name="path" value="*.links.action.yml" />
+                    <option name="mappingKind" value="Pattern" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
         <entry key="Drupal permissions">
           <value>
             <SchemaInfo>

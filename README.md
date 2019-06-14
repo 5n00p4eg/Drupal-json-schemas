@@ -12,9 +12,9 @@ This schemas can be used to validate Drupal 8+ yaml files.
 |*.schema.yml           |To-do |
 |*.routing.yml          |yes   |
 |*.services.yml         |yes   |
-|*.links.action.yml     |To-do |
-|*.links.contextual.yml |To-do |
-|*.links.menu.yml       |To-do |
+|*.links.action.yml     |yes   |
+|*.links.contextual.yml |yes   |
+|*.links.menu.yml       |yes   |
 |*.links.task.yml       |yes   |
 |*.permissions.yml      |yes   |
 |\*/migrations/\*.yml   |To-do |
@@ -47,6 +47,9 @@ This schemas can be used to validate Drupal 8+ yaml files.
 |Drupal layouts|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/layouts.yml.json`|`*.layouts.yml`|
 |Drupal libraries|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/schema/libraries.yml.json`|`*.libraries.yml`|
 |Drupal links (task)|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.task.yml.json`|`*.links.task.yml`|
+|Drupal links (menu)|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.menu.yml.json`|`*.links.menu.yml`|
+|Drupal links (contextual)|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.contextual.yml.json`|`*.links.contextual.yml`|
+|Drupal links (action)|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.action.yml.json`|`*.links.action.yml`|
 |Drupal permissions|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/permissions.yml.json`|`*.permissions.yml`|
 |Drupal routing|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/routing.yml.json`|`*.routing.yml`|
 |Drupal services|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/services.yml.json`|`*.services.yml`|
