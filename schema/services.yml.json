@@ -27,91 +27,18 @@
                         "items": {
                             "type": "object",
                             "properties": {
-                                "name": {
-                                    "anyOf": [
-                                        {
-                                            "enum": [
-                                                "access_check",
-                                                "authentication_provider",
-                                                "backend_overridable",
-                                                "cache.bin",
-                                                "cache.context",
-                                                "cache_tags_invalidator",
-                                                "context_provider",
-                                                "dynamic_page_cache_response_policy",
-                                                "event_subscriber",
-                                                "http_middleware",
-                                                "mime_type_guesser",
-                                                "needs_destruction",
-                                                "page_cache_request_policy",
-                                                "page_cache_response_policy",
-                                                "paramconverter",
-                                                "parameter_service",
-                                                "path_processor_inbound",
-                                                "path_processor_outbound",
-                                                "persist",
-                                                "placeholder_strategy",
-                                                "plugin_manager_cache_clear",
-                                                "render.main_content_renderer",
-                                                "route_enhancer",
-                                                "route_filter",
-                                                "route_processor_outbound",
-                                                "service_collector",
-                                                "session_handler_proxy",
-                                                "stream_wrapper",
-                                                "string_translator",
-                                                "twig.extension",
-                                                "twig.loader",
-                                                "theme_negotiator",
-                                                "breadcrumb_builder",
-                                                "module_install.uninstall_validator",
-                                                "config.factory.override",
-                                                "drush.command",
-                                                "drupal.command",
-                                                "logger"
-                                            ]
-                                        },
-                                        {"type": "string"}
-                                    ]
-                                },
+                                "name": {"type": "string"},
                                 "call": {"type": "string"},
                                 "required": {"type": "boolean"},
                                 "tag": {"type": "string"},
                                 "priority": {"type": "integer"},
                                 "default_backend": {"type": "string"},
                                 "responder": {"type": "boolean"},
-                                "format": {
-                                    "anyOf": [
-                                        {
-                                            "enum": [
-                                                "html",
-                                                "drupal_ajax",
-                                                "iframeupload",
-                                                "drupal_dialog",
-                                                "drupal_dialog.off_canvas",
-                                                "drupal_dialog.off_canvas_top",
-                                                "drupal_modal"
-                                            ]
-                                        },
-                                        {"type": "string"}
-                                    ]
-                                },
+                                "format": {"type": "string"},
                                 "applies_to": {"type": "string"},
                                 "provider_id": {"type": "string"},
                                 "needs_incoming_request": {"type": "boolean"},
-                                "scheme": {
-                                    "anyOf": [
-                                        {
-                                            "enum": [
-                                                "public",
-                                                "private",
-                                                "temporary"
-
-                                            ]
-                                        },
-                                        {"type": "string"}
-                                    ]
-                                }
+                                "scheme": {"type": "string"}
                             }
                         }
                     },
