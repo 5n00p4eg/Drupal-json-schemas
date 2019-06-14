@@ -132,7 +132,7 @@
         <entry key="Drupal breakpoints">
           <value>
             <SchemaInfo>
-              <option name="name" value="Drupal services" />
+              <option name="name" value="Drupal breakpoints" />
               <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/breakpoints.yml.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
               <option name="patterns">
@@ -147,7 +147,7 @@
             </SchemaInfo>
           </value>
         </entry>
-        <entry key="Drupal services">
+        <entry key="Drush site aliases">
           <value>
             <SchemaInfo>
               <option name="name" value="Drush site aliases" />

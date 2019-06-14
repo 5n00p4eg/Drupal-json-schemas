@@ -34,7 +34,9 @@ This schemas can be used to validate Drupal 8+ yaml files.
 ### PhpStorm (config file)
 *Note:* this may override your existing JSON Schema Mappings.   
 
-Put file [jsonSchemas.xml](https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/configs/jsonSchemas.xml) inside of .idea dir in your PhpStorm project dir.
+1. Put file [jsonSchemas.xml](https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/configs/jsonSchemas.xml) inside of .idea dir in your PhpStorm project dir.
+1. Restart IDE
+
 ### PhpStorm (manual)
 1. Open `File | Settings | Languages & Frameworks | Schemas and DTDs | JSON Schema Mappings`
 1. Add needed:
