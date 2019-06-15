@@ -96,6 +96,5 @@
             "title": "Class for migration implementation",
             "type": "string"
         }
-    },
-    "additionalProperties": false
+    }
 }
