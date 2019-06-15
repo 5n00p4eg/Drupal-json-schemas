@@ -11,7 +11,21 @@
             "properties": {
                 "type": {
                     "title": "The type of the value",
-                    "type": "string"
+                    "type": "string",
+                    "examples": [
+                        "boolean",
+                        "integer",
+                        "float",
+                        "string",
+                        "uri",
+                        "email",
+                        "mapping",
+                        "sequence",
+                        "label",
+                        "text",
+                        "config_object",
+                        "config_entity"
+                    ]
                 },
                 "label": {
                     "title": "User interface label for the value",
