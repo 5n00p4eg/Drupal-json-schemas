@@ -54,5 +54,5 @@ This schemas can be used to validate Drupal 8+ yaml files.
 |Drupal routing|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/routing.yml.json`|`*.routing.yml`|
 |Drupal services|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/services.yml.json`|`*.services.yml`|
 |Drupal breakpoints|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/breakpoints.yml.json`|`*.breakpoints.yml`|
-|Drush site aliases|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/site.alias.yml.json`|`*.site.yml`|
+|Drush site aliases|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/site.alias.yml.json`|`*/sites/*.site.yml`|
    
