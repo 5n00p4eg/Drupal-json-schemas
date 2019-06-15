@@ -1,7 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "JSON schema for Drupal layouts file",
-    "description": "Drupal plugin definition: core/lib/Drupal/Core/Layout/LayoutDefinition.php",
     "type": "object",
     "additionalProperties": {
         "type": "object",
