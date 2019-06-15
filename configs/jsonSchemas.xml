@@ -7,7 +7,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Drupal info" />
-              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schemas/info.yml.json" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schemas/drupal/info.yml.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
               <option name="patterns">
                 <list>
@@ -25,7 +25,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Drupal layouts" />
-              <option name="relativePathToSchema" value="../drupal-json-schemas/schema/layouts.yml.json" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schemas/drupal/layouts.yml.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
               <option name="patterns">
                 <list>
@@ -43,7 +43,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Drupal libraries" />
-              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/libraries.yml.json" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/libraries.yml.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
               <option name="patterns">
                 <list>
@@ -61,7 +61,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Drupal links (task)" />
-              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.task.yml.json" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/links.task.yml.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
               <option name="patterns">
                 <list>
@@ -79,7 +79,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Drupal links (menu)" />
-              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.menu.yml.json" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/links.menu.yml.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
               <option name="patterns">
                 <list>
@@ -97,7 +97,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Drupal links (contextual)" />
-              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.contextual.yml.json" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/links.contextual.yml.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
               <option name="patterns">
                 <list>
@@ -115,7 +115,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Drupal links (action)" />
-              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/links.action.yml.json" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/links.action.yml.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
               <option name="patterns">
                 <list>
@@ -133,7 +133,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Drupal permissions" />
-              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/permissions.yml.json" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/permissions.yml.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
               <option name="patterns">
                 <list>
@@ -151,7 +151,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Drupal routing" />
-              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/routing.yml.json" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/routing.yml.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
               <option name="patterns">
                 <list>
@@ -169,7 +169,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Drupal services" />
-              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/services.yml.json" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/services.yml.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
               <option name="patterns">
                 <list>
@@ -187,7 +187,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Drupal breakpoints" />
-              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/breakpoints.yml.json" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/breakpoints.yml.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
               <option name="patterns">
                 <list>
@@ -205,7 +205,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Drush site aliases" />
-              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/site.alias.yml.json" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/drush/site.alias.yml.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
               <option name="patterns">
                 <list>
