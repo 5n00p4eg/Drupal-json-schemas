@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Drupal task links file",
+    "title": "JSON schema for Drupal task links file",
     "type": "object",
     "additionalProperties": {
         "type": "object",

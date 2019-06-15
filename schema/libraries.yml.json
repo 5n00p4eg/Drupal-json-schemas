@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Drupal libraries file",
+    "title": "JSON schema for Drupal libraries file",
     "type": "object",
     "additionalProperties": {
         "type": "object",

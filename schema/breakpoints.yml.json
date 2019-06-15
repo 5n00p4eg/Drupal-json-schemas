@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Drupal breakpoints file",
+  "title": "JSON schema for Drupal breakpoints file",
   "description": "Drupal breakpoint plugin manager: core/modules/breakpoint/src/BreakpointManager.php",
   "type": "object",
   "additionalProperties": {

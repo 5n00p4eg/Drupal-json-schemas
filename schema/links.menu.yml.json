@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Drupal menu links file",
+    "title": "JSON schema for Drupal menu links file",
     "type": "object",
     "additionalProperties": {
         "type": "object",

@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Schema for Drush 9 site aliases",
+    "title": "JSON Schema for Drush 9 site aliases",
     "type": "object",
     "additionalProperties": {
         "type": "object",

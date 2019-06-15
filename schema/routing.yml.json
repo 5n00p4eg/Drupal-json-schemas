@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Drupal routing file",
+    "title": "JSON schema for Drupal routing file",
     "type": "object",
     "properties": {
         "route_callbacks": {

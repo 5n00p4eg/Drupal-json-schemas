@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Drupal action links file",
+    "title": "JSON schema for Drupal action links file",
     "type": "object",
     "additionalProperties": {
         "type": "object",

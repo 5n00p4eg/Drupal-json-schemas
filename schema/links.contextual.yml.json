@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Drupal contextual links file",
+    "title": "JSON schema for Drupal contextual links file",
     "type": "object",
     "additionalProperties": {
         "type": "object",
