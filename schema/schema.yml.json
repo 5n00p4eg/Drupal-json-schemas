@@ -1,0 +1,60 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Drupal configuration schema file",
+    "type": "object",
+    "additionalProperties": {
+        "title": "Configuration item",
+        "$ref": "#/definitions/configItem"
+    },
+    "definitions": {
+        "configItem": {
+            "properties": {
+                "type": {
+                    "title": "The type of the value",
+                    "type": "string"
+                },
+                "label": {
+                    "title": "User interface label for the value",
+                    "type": "string"
+                },
+                "translatable": {
+                    "title": "Whether the defined type is translatable",
+                    "type": "boolean"
+                },
+                "translation context": {
+                    "title": "The translation context the source string belongs to",
+                    "type": "string"
+                },
+                "nullable": {
+                    "title": "Whether the value can be empty",
+                    "type": "boolean"
+                },
+                "class": {
+                    "title": "The class implementing parsing",
+                    "type": "string"
+                },
+                "definition_class": {
+                    "title": "The definition class",
+                    "type": "string"
+                },
+                "orderby": {
+                    "title": "Determines how the sequence should be sorted",
+                    "type": "string"
+                },
+                "constraints": {
+                    "title": "Validation constrains",
+                    "type": "object"
+                },
+                "sequence": {
+                    "$ref": "#/definitions/configItem"
+                },
+                "mapping": {
+                    "additionalProperties": {
+                        "$ref": "#/definitions/configItem"
+                    }
+                }
+            },
+            "additionalProperties": false
+        }
+    }
+}
