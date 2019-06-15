@@ -61,7 +61,7 @@
                 "uniqueItems": true
             },
             "options": {
-                "title": "Additiona route options",
+                "title": "Additional route options",
                 "type": "object",
                 "properties": {
                     "no_cache": {"type":  "boolean"},
