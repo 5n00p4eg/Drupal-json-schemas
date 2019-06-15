@@ -7,12 +7,31 @@
     "type": "object",
     "additionalProperties": false,
     "properties": {
-      "label": {"type": "string"},
-      "mediaQuery": {"type": "string"},
-      "weight": {"type": "integer"},
+      "label": {
+        "title": "A human readable label for the breakpoint",
+        "type": "string"
+      },
+      "mediaQuery": {
+        "title": "Media query text proper",
+        "examples": ["all and (min-width: 851px)"],
+        "type": "string"
+      },
+      "weight": {
+        "title": "Positional weight (order) for the breakpoint",
+        "type": "integer"
+      },
       "multipliers": {
+        "title": " Supported pixel resolution multipliers",
         "type": "array",
-        "items": {"type": "string"}
+        "items": {
+          "type": "string",
+          "pattern": "^\\d+(\\.\\d+)?x$"
+        },
+        "uniqueItems": true
+      },
+      "group": {
+        "title": "Breakpoint group",
+        "type": "string"
       }
     }
   }
