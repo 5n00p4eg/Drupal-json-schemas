@@ -224,6 +224,24 @@
               </SchemaInfo>
           </value>
         </entry>
+          <entry key="Drupal configs schemas">
+              <value>
+                  <SchemaInfo>
+                      <option name="name" value="Drupal configs schemas" />
+                      <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/schema.yml.json" />
+                      <option name="schemaVersion" value="JSON schema version 7" />
+                      <option name="patterns">
+                          <list>
+                              <Item>
+                                  <option name="pattern" value="true" />
+                                  <option name="path" value="*/config/schema/*.schema.yml" />
+                                  <option name="mappingKind" value="Pattern" />
+                              </Item>
+                          </list>
+                      </option>
+                  </SchemaInfo>
+              </value>
+          </entry>
         <entry key="Drush site aliases">
           <value>
             <SchemaInfo>

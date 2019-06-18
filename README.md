@@ -9,7 +9,7 @@ This schemas can be used to validate Drupal 8+ yaml files.
 |*.layouts.yml          |yes   |
 |*.libraries.yml        |yes   | 
 |*.breakpoints.yml      |yes   |
-|*.schema.yml           |To-do |
+|*.schema.yml           |yes   |
 |*.routing.yml          |yes   |
 |*.services.yml         |yes   |
 |*.links.action.yml     |yes   |
@@ -23,7 +23,7 @@ This schemas can be used to validate Drupal 8+ yaml files.
 |Project/File           |Status|
 |-----------------------|------|
 |Drush (9.x+) yml files |To-do |
-|migrate_plus           |To-do |
+|migrate_plus           |yes   |
 
 ## TODO:
 1. Add this schemas to schemastore.org [issue](https://github.com/SchemaStore/schemastore/issues/710)
@@ -55,5 +55,6 @@ This schemas can be used to validate Drupal 8+ yaml files.
 |Drupal services|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/services.yml.json`|`*.services.yml`|
 |Drupal breakpoints|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/breakpoints.yml.json`|`*.breakpoints.yml`|
 |Drupal migrations|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/migration.yml.json`|`*/migrations/*.yml`, `*.migration.*.yml`|
+|Drupal configs schemas|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/schema.yml.json`|`*/config/schema/*.schema.yml`|
 |Drush site aliases|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drush/site.alias.yml.json`|`*/sites/*.site.yml`|
    
