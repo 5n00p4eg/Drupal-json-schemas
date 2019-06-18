@@ -43,18 +43,18 @@ This schemas can be used to validate Drupal 8+ yaml files.
 
 |Name|Url|Pattern|
 |----|---|-------|
-|Drupal info|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/info.yml.json`|`*.info.yml`|
-|Drupal layouts|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/layouts.yml.json`|`*.layouts.yml`|
-|Drupal libraries|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/schema/drupal/libraries.yml.json`|`*.libraries.yml`|
-|Drupal links (task)|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/links.task.yml.json`|`*.links.task.yml`|
-|Drupal links (menu)|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/links.menu.yml.json`|`*.links.menu.yml`|
-|Drupal links (contextual)|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/links.contextual.yml.json`|`*.links.contextual.yml`|
-|Drupal links (action)|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/links.action.yml.json`|`*.links.action.yml`|
-|Drupal permissions|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/permissions.yml.json`|`*.permissions.yml`|
-|Drupal routing|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/routing.yml.json`|`*.routing.yml`|
-|Drupal services|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/services.yml.json`|`*.services.yml`|
-|Drupal breakpoints|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/breakpoints.yml.json`|`*.breakpoints.yml`|
-|Drupal migrations|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/migration.yml.json`|`*/migrations/*.yml`, `*.migration.*.yml`|
-|Drupal configs schemas|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/schema.yml.json`|`*/config/schema/*.schema.yml`|
-|Drush site aliases|`https://5n00p4eg.github.io/Drupal-json-schemas/schema/drush/site.alias.yml.json`|`*/sites/*.site.yml`|
+|Drupal info|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drupal/info.yml.json`|`*.info.yml`|
+|Drupal layouts|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drupal/layouts.yml.json`|`*.layouts.yml`|
+|Drupal libraries|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/schema/drupal/libraries.yml.json`|`*.libraries.yml`|
+|Drupal links (task)|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drupal/links.task.yml.json`|`*.links.task.yml`|
+|Drupal links (menu)|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drupal/links.menu.yml.json`|`*.links.menu.yml`|
+|Drupal links (contextual)|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drupal/links.contextual.yml.json`|`*.links.contextual.yml`|
+|Drupal links (action)|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drupal/links.action.yml.json`|`*.links.action.yml`|
+|Drupal permissions|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drupal/permissions.yml.json`|`*.permissions.yml`|
+|Drupal routing|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drupal/routing.yml.json`|`*.routing.yml`|
+|Drupal services|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drupal/services.yml.json`|`*.services.yml`|
+|Drupal breakpoints|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drupal/breakpoints.yml.json`|`*.breakpoints.yml`|
+|Drupal migrations|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drupal/migration.yml.json`|`*/migrations/*.yml`, `*.migration.*.yml`|
+|Drupal configs schemas|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drupal/schema.yml.json`|`*/config/schema/*.schema.yml`|
+|Drush site aliases|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drush/site.alias.yml.json`|`*/sites/*.site.yml`|
    
