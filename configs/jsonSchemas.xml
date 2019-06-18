@@ -7,7 +7,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Drupal info" />
-              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schemas/drupal/info.yml.json" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/info.yml.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
               <option name="patterns">
                 <list>
@@ -25,7 +25,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Drupal layouts" />
-              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schemas/drupal/layouts.yml.json" />
+              <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/layouts.yml.json" />
               <option name="schemaVersion" value="JSON schema version 7" />
               <option name="patterns">
                 <list>
