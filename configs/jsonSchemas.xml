@@ -201,6 +201,29 @@
             </SchemaInfo>
           </value>
         </entry>
+        <entry key="Drupal migrations">
+          <value>
+              <SchemaInfo>
+                  <option name="name" value="Drupal migrations" />
+                  <option name="relativePathToSchema" value="https://5n00p4eg.github.io/Drupal-json-schemas/schema/drupal/migration.yml.json" />
+                  <option name="schemaVersion" value="JSON schema version 7" />
+                  <option name="patterns">
+                      <list>
+                          <Item>
+                              <option name="pattern" value="true" />
+                              <option name="path" value="*/migrations/*.yml" />
+                              <option name="mappingKind" value="Pattern" />
+                          </Item>
+                          <Item>
+                              <option name="pattern" value="true" />
+                              <option name="path" value="*.migration.*.yml" />
+                              <option name="mappingKind" value="Pattern" />
+                          </Item>
+                      </list>
+                  </option>
+              </SchemaInfo>
+          </value>
+        </entry>
         <entry key="Drush site aliases">
           <value>
             <SchemaInfo>
