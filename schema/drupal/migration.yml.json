@@ -82,6 +82,38 @@
                     "type": "array",
                     "items": {"type": "string"},
                     "uniqueItems": true
+                },
+                "theme": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "uniqueItems": true
+                },
+                "content": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "uniqueItems": true
+                },
+                "enforced": {
+                    "config": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "uniqueItems": true
+                    },
+                    "module": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "uniqueItems": true
+                    },
+                    "theme": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "uniqueItems": true
+                    },
+                    "content": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "uniqueItems": true
+                    }
                 }
             },
             "additionalProperties": false
@@ -94,7 +126,7 @@
         },
         "class": {
             "title": "Class for migration implementation",
-            "type": "string"
+            "type": ["string", "null"]
         }
     }
 }
