@@ -48,7 +48,7 @@
                     "_csrf_token": {"type": "string"},
                     "_user_is_logged_in": {"type": "string"},
                     "_access_theme": {"type": "string"},
-                    "_permission_": {"type": "string"}
+                    "_permission": {"type": "string"}
                 }
             },
             "methods": {
