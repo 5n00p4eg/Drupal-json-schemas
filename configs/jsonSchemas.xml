@@ -246,13 +246,13 @@
           <value>
             <SchemaInfo>
               <option name="name" value="Drush site aliases" />
-              <option name="relativePathToSchema" value="https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drush/site.alias.yml.json" />
+              <option name="relativePathToSchema" value="http://json.schemastore.org/drush.site.yml" />
               <option name="schemaVersion" value="JSON schema version 7" />
               <option name="patterns">
                 <list>
                   <Item>
                     <option name="pattern" value="true" />
-                    <option name="path" value="*.site.yml" />
+                    <option name="path" value="sites/*.site.yml" />
                     <option name="mappingKind" value="Pattern" />
                   </Item>
                 </list>
