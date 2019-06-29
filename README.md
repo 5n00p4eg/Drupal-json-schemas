@@ -56,5 +56,4 @@ This schemas can be used to validate Drupal 8+ yaml files.
 |Drupal breakpoints|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drupal/breakpoints.yml.json`|`*.breakpoints.yml`|
 |Drupal migrations|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drupal/migration.yml.json`|`*/migrations/*.yml`, `*.migration.*.yml`|
 |Drupal configs schemas|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drupal/schema.yml.json`|`*/config/schema/*.schema.yml`|
-|Drush site aliases|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drush/site.alias.yml.json`|`*/sites/*.site.yml`|
-   
+|Drush site aliases|`http://json.schemastore.org/drush.site.yml`|`*/sites/*.site.yml`|
