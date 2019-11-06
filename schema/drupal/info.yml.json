@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "JSON schema for Drupal extension info file",
     "type": "object",
-    "required": ["type", "core", "name"],
+    "required": ["type", "name"],
     "properties": {
         "name": {
             "title": "The human-readable name",
@@ -15,6 +15,10 @@
         "core": {
             "type": "string",
             "pattern": "^\\d\\.x$"
+        },
+        "core_version_requirement": {
+            "title": "Semantic core version requirement",
+            "type": "string"
         },
         "description": {
             "title": "Extension description",
