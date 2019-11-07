@@ -31,5 +31,5 @@ This schemas can be used to validate Drupal 8+ yaml files.
 
 ## TODO:
 1. Add this schemas to schemastore.org [issue](https://github.com/SchemaStore/schemastore/issues/710)
-2. Add schemas to Drupal core [issue](https://www.drupal.org/project/drupal/issues/3061454)
+2. Add schemas to Drupal coder [issue](https://www.drupal.org/project/drupal/issues/3061454)
 3. Add schema mappings to PhpStorm via bundled Drupal support or other custom plugin.  
