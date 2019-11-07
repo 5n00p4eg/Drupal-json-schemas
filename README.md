@@ -1,45 +1,16 @@
-# Drupal json schemas
+# Drupal JSON schemas
 This schemas can be used to validate Drupal 8+ yaml files.
-
-## Supported yaml files:
-### Core
-|File                   |Status|
-|-----------------------|------|
-|*.info.yml             |yes   |
-|*.layouts.yml          |yes   |
-|*.libraries.yml        |yes   | 
-|*.breakpoints.yml      |yes   |
-|*.schema.yml           |yes   |
-|*.routing.yml          |yes   |
-|*.services.yml         |yes   |
-|*.links.action.yml     |yes   |
-|*.links.contextual.yml |yes   |
-|*.links.menu.yml       |yes   |
-|*.links.task.yml       |yes   |
-|*.permissions.yml      |yes   |
-|\*/migrations/\*.yml   |yes   |
-
-### Contrib
-|Project/File           |Status|
-|-----------------------|------|
-|Drush (9.x+) yml files |To-do |
-|migrate_plus           |yes   |
-
-## TODO:
-1. Add this schemas to schemastore.org [issue](https://github.com/SchemaStore/schemastore/issues/710)
-1. Add schemas to Drupal core [issue](https://www.drupal.org/project/drupal/issues/3061454)
-1. Add schema mappings to PhpStorm via bundled Drupal support or other custom plugin.  
 
 ## Usage
 ### PhpStorm (config file)
 *Note:* this may override your existing JSON Schema Mappings.   
 
-1. Put file [jsonSchemas.xml](https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/configs/jsonSchemas.xml) inside of .idea dir in your PhpStorm project dir.
-1. Restart IDE
+1. Copy thge file [jsonSchemas.xml](https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/configs/jsonSchemas.xml) to `.idea` directory in your PhpStorm project root.
+2. Restart IDE
 
 ### PhpStorm (manual)
 1. Open `File | Settings | Languages & Frameworks | Schemas and DTDs | JSON Schema Mappings`
-1. Add needed:
+2. Add the following schemas as needed
 
 |Name|Url|Pattern|
 |----|---|-------|
@@ -57,3 +28,8 @@ This schemas can be used to validate Drupal 8+ yaml files.
 |Drupal migrations|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drupal/migration.yml.json`|`*/migrations/*.yml`, `*.migration.*.yml`|
 |Drupal configs schemas|`https://raw.githubusercontent.com/5n00p4eg/Drupal-json-schemas/master/schema/drupal/schema.yml.json`|`*/config/schema/*.schema.yml`|
 |Drush site aliases|`http://json.schemastore.org/drush.site.yml`|`*/sites/*.site.yml`|
+
+## TODO:
+1. Add this schemas to schemastore.org [issue](https://github.com/SchemaStore/schemastore/issues/710)
+2. Add schemas to Drupal core [issue](https://www.drupal.org/project/drupal/issues/3061454)
+3. Add schema mappings to PhpStorm via bundled Drupal support or other custom plugin.  
